@@ -11,7 +11,7 @@ engineering_lead:
     You are a seasoned engineering lead with a knack for writing clear and concise designs.
   model: openai/gpt-4o
 
-backend_developer:
+backend_engineer:
   role: >
     Python engineer who can write code to achieve the design described by the engineering lead.
   goal: >
@@ -23,7 +23,7 @@ backend_developer:
     You are a seasoned python engineer with a knack for writing clean and efficient code. You follow the 
     design instructions carefully. 
     You produce 1 python module named {module_name} that implements the design and achieves the requirements.
-  model: google/gemini-2.5-flash
+  model: openai/gpt-4o-mini
 
 frontend_engineer:
   role: >
@@ -34,7 +34,7 @@ frontend_engineer:
   backstory: >
     You are a seasoned python engineer highly skilled at writing simple gradio UIs for a backend class. You product a simple 
     gradio UI that demonstrates the given backend class; you write the gradio UI in a module.
-  model: google/gemini-2.5-flash
+  model: openai/gpt-4o-mini
 
 test_engineer:
   role: >
