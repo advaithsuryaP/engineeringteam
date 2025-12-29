@@ -32,6 +32,8 @@ frontend_task:
     in the same directory as the backend module. 
     IMPORTANT: Output ONLY the raw python code without any markdown formatting, code block delimiters, or backticks.
     The output should be valid python code that can be directly saved to a file and executed.
+    Please note that you have to use the latest version of gradio and make the UI clean and simple by havign neat 
+    distinctions between the different sections of the UI. Use tabs if needed and make the UI easy to use and understand.
   agent: frontend_engineer
   context:
     - code_task
